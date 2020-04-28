@@ -1,25 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>cr137_accountdashboard_4128a</Name>
-  <AppVersion>2020-04-27T10:55:12Z</AppVersion>
+  <AppVersion>2020-04-28T10:01:44Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.20043.15.0</CreatedByClientVersion>
   <MinClientVersion>3.20043.15.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"7fecab60-91a6-4991-b026-b0ef59513129","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.20043.15","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"b3486837-d242-4202-852c-860daec873be","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.20043.15","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
   <DisplayName>Account Dashboard</DisplayName>
-  <Description></Description>
-  <CommitMessage></CommitMessage>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher></Publisher>
   <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
   <ConnectionReferences>{}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Accounts":{"entitySetName":"accounts","logicalName":"account"},"Test Entities":{"entitySetName":"cr137_testentities","logicalName":"cr137_testentity"}}}}</DatabaseReferences>
   <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <CdsDependencies xsi:nil="true"></CdsDependencies>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"account","componenttype":1},{"logicalname":"cr137_testentity","componenttype":1}]}</CdsDependencies>
   <BackgroundImageUri>/CanvasApps/cr137_accountdashboard_4128a_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/cr137_accountdashboard_4128a_DocumentUri.msapp</DocumentUri>
 </CanvasApp>
